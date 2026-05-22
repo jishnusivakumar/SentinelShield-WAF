@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SentinelShield Dashboard</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            background-color: #111;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #00ff99;
+        }
+
+        .card {
+            background: #222;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        pre {
+            background: black;
+            color: #00ff99;
+            padding: 15px;
+            overflow-x: auto;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>SentinelShield Security Dashboard</h1>
+
+    <div class="card">
+        <h2>Total Logged Attacks</h2>
+        <h3>{{ attack_count }}</h3>
+    </div>
+
+    <div class="card">
+        <h2>Recent Attack Logs</h2>
+
+        <pre>
+{{ logs }}
+        </pre>
+    </div>
+
+</body>
+</html>
