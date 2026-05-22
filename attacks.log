@@ -1,4 +1,1 @@
-2026-05-22 20:38:56.875878 | IP: 127.0.0.1 | Attack: SQL Injection | URL: http://127.0.0.1:5000/?id='%20OR%201=1%20--
-2026-05-22 20:39:06.403380 | IP: 127.0.0.1 | Attack: XSS Attack | URL: http://127.0.0.1:5000/?q=<script>alert(1)</script>
-2026-05-22 20:41:20.465643 | IP: 127.0.0.1 | Attack: Rate Limit Exceeded | URL: http://127.0.0.1:5000/
-2026-05-22 20:41:20.692549 | IP: 127.0.0.1 | Attack: Rate Limit Exceeded | URL: http://127.0.0.1:5000/
+
