@@ -87,4 +87,4 @@ Example:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/SentinelShield-WAF.git
+git clone https://github.com/jishnusivakumar/SentinelShield-WAF.git
